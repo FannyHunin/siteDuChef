@@ -9936,6 +9936,7 @@ body header nav .nav {
   align-items: center;
 }
 body header nav .nav .nav-item .nav-link {
+  font-weight: bolder;
   color: white;
   padding-top: 20px;
   padding-bottom: 20px;
