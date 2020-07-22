@@ -10000,4 +10000,67 @@ body header .bottomDecoration {
   outline: none;
 }
 
+#sectionAbout {
+  background-image: url("../../../public/images/main_bg.jpg");
+  display: flex;
+  justify-content: center;
+}
+#sectionAbout #ourStory {
+  margin-top: 5%;
+  background-color: white;
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#sectionAbout #ourStory .borders {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#sectionAbout #ourStory .text {
+  width: 50%;
+  text-align: center;
+  position: relative;
+  top: -10%;
+}
+#sectionAbout #ourStory .text h1 {
+  font-size: 50px;
+  font-family: "Courgette", cursive;
+}
+#sectionAbout #ourStory .text h1 span {
+  color: #C42D40;
+}
+#sectionAbout #ourStory .text p {
+  margin-top: 5%;
+}
+
+#sectionMenu {
+  background-image: url("../../../public/images/main_bg.jpg");
+  display: flex;
+  justify-content: center;
+}
+#sectionMenu #ourMenu {
+  background-color: white;
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#sectionMenu #ourMenu .text {
+  width: 50%;
+  text-align: center;
+  position: relative;
+  top: -10%;
+}
+#sectionMenu #ourMenu .text h1 {
+  font-size: 50px;
+  font-family: "Courgette", cursive;
+}
+#sectionMenu #ourMenu .text h1 span {
+  color: #C42D40;
+}
+
 /*# sourceMappingURL=app.css.map */

@@ -1,0 +1,35 @@
+#sectionAbout{
+    background-image: url("../../../public/images/main_bg.jpg");
+    display: flex;
+    justify-content: center;
+    #ourStory{
+        margin-top: 5%;
+        background-color: white;
+        width: 75%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .borders{
+           width: 100%;
+           display: flex;
+           justify-content: space-between;
+        }
+        .text{
+            width: 50%;
+            text-align: center;
+            position: relative;
+            top: -10%;
+            h1{
+                font-size: 50px;
+                font-family: 'Courgette', cursive;
+                span{
+                    color: #C42D40;
+                }
+            }
+            p{
+                margin-top: 5%
+            }
+        }
+    }
+}

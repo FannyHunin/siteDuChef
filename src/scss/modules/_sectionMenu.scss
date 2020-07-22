@@ -1,0 +1,27 @@
+#sectionMenu{
+    background-image: url("../../../public/images/main_bg.jpg");
+    display: flex;
+    justify-content: center;
+    #ourMenu{
+        background-color: white;
+        width: 75%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .text{
+            width: 50%;
+            text-align: center;
+            position: relative;
+            top: -10%;
+            h1{
+                font-size: 50px;
+                font-family: 'Courgette', cursive;
+                span{
+                    color: #C42D40;
+                }
+            }
+        }
+    }
+   
+}
