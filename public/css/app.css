@@ -9935,19 +9935,12 @@ body header nav .nav {
   display: flex;
   align-items: center;
 }
-body header nav .nav .nav-item #logoImg {
-  border: solid red;
-}
-body header nav .nav .nav-item #logoImg img {
-  margin-left: 25px;
-  margin-right: 25px;
-}
 body header nav .nav .nav-item .nav-link {
   color: white;
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
   border-top: white solid 1px;
   border-bottom: white solid 1px;
 }

@@ -18,6 +18,7 @@ body {
                 top: 0;
             }
         }
+
         // #border {
         //     background-image: url("../../../public/images/bottom_decoration_img.png");
         //     position: absolute;
@@ -25,40 +26,36 @@ body {
         //     width: 100%;
         // }
 
-        nav{
+        nav {
             margin-top: 30px;
             width: 100%;
             position: absolute;
             top: 0%;
             z-index: 2;
-            .nav{
+
+            .nav {
                 display: flex;
                 align-items: center;
-                .nav-item{
-                    #logoImg{
-                        border: solid red;
-                        img{
-                            margin-left: 25px;
-                            margin-right: 25px;
-                        }
-                        
-                        
-                    }
-                    .nav-link{
+
+                .nav-item {
+                    .nav-link {
 
                         color: white;
                         padding-top: 20px;
                         padding-bottom: 20px;
-                        padding-left: 20px;
-                        padding-right: 20px;
+                        padding-left: 50px;
+                        padding-right: 50px;
                         border-top: white solid 1px;
                         border-bottom: white solid 1px;
                     }
-                    .nav-link:hover{
+    
+                    .nav-link:hover {
                         background-color: #C42D40;
-                        
+    
                     }
                 }
+
+                
             }
         }
     }
