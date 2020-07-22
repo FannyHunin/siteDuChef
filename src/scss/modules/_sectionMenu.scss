@@ -1,27 +1,106 @@
-#sectionMenu{
+#sectionMenu {
     background-image: url("../../../public/images/main_bg.jpg");
     display: flex;
     justify-content: center;
-    #ourMenu{
+
+    #ourMenu {
         background-color: white;
         width: 75%;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        .text{
-            width: 50%;
+
+        .text {
+            width: 100%;
             text-align: center;
             position: relative;
             top: -10%;
-            h1{
+            h1 {
                 font-size: 50px;
                 font-family: 'Courgette', cursive;
-                span{
+
+                span {
                     color: #C42D40;
                 }
             }
+            .container-fluid{
+                border: solid steelblue;
+                width: 100%;
+                #tabMenu {
+                    margin-top: 5%;
+    
+                    .row {
+                        .col-3 {
+                            .nav {
+                                .nav-link {
+                                    color: black;
+                                    display: flex;
+                                    flex-direction: column;
+                                    font-family: 'Courgette', cursive;
+                                    font-size: 30px;
+    
+                                    i {
+                                        color: #CCCCCC;
+                                    }
+                                }
+    
+                                .nav-link:focus {
+                                    background-color: white;
+                                    border-right: solid #C42D40 2px;
+    
+                                    i {
+                                        color: #C42D40;
+    
+                                    }
+                                }
+                            }
+                        }
+                    }
+    
+                    .col-9 {
+                        .tab-content {
+                            .tab-pane {
+                                .row {
+    
+                                    width: 800px;
+    
+                                    .col-6 {
+                                        display: flex;
+                                        border-bottom: dotted #CCCCCC 1px;
+                                        justify-content: space-between;
+                                        align-items: center;
+    
+                                        img {
+                                            border: #CCCCCC double;
+                                            width: 20%;
+                                            border-radius: 50%;
+                                        }
+    
+                                        div {
+                                            width: 500px;
+    
+                                            h5 {
+                                                font-weight: bolder;
+                                            }
+                                        }
+    
+                                        p {
+                                            padding-left: 5px;
+                                            padding-right: 5px;
+                                            background-color: #CCCCCC;
+                                        }
+                                    }
+    
+                                }
+                            }
+                        }
+                    }
+            }
+            
+            }
         }
+
     }
-   
+
 }
