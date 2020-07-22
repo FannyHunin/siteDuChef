@@ -1,0 +1,49 @@
+#headerCarousel{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    z-index: 3;
+    #carouselExampleSlidesOnly{
+        .carousel-indicators{
+            position: absolute;
+            bottom: -120%;
+            li{
+                width: 15px;
+                border: double white;
+                border-radius: 50%;
+                height: 15px;
+            }
+        }
+        .carousel-inner{
+            .carousel-item{
+                .carouselText{
+                    color: white;
+                    text-align: center;
+                    font-size:80px;
+                    font-family: 'Courgette', cursive;
+                    span{
+                        color:  #C42D40;
+                    }
+                }
+            }
+        }
+    }
+    #carouselButtons{
+        display: flex;
+        justify-content: center;
+        button{
+            margin-left: 10px;
+            margin-right: 10px;
+            border-radius: 50px;
+            padding: 15px;
+            border : none !important;
+        }
+        button:hover{
+            background-color: #C42D40;
+            color: white;
+        }
+        button:focus{
+            outline: none;
+        }
+    }
+}

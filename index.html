@@ -11,7 +11,6 @@
 </head>
 
 <body>
-
     <!-- header + navbar -->
     <header>
         <!-- banner -->
@@ -20,42 +19,95 @@
             </div>
             <img src="./public/images/banner1.jpg" alt="" id="bannerImg">
         </div>
-        <div id="border"></div>
-        <nav>
-            <ul class="nav justify-content-center">
-                <li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">HOME</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">ABOUT US</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">MENU LIST</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">TEAM</a>
-                </li>
-                </li>
-                <!-- logo -->
-                <div id="logoImg" class=" ml-5 mr-5" style="height: 105px;">
-                    <img src="./public/images/logo.png" alt="">
+        <!-- navbar -->
+        <div class="container-fluid">
+                <ul class="nav justify-content-center">
+                    <li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">MENU LIST</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">TEAM</a>
+                    </li>
+                    </li>
+                    <!-- logo -->
+                    <div id="logoImg" class=" ml-5 mr-5" style="height: 105px;">
+                        <img src="./public/images/logo.png" alt="">
+                    </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">RESERVATION</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">TESTIMONIALS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT US</a>
+                    </li>
+                </ul>
+        </div>
+
+        <!-- header carousel -->
+        <section id="headerCarousel">
+            <!-- carousel -->
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <h1 class="carouselText">
+                            Whatever your OCCASION,<br>
+                            <span>TASTE</span> makes it one <br>
+                            to remember !
+                        </h1>
+                    </div>
+                    <div class="carousel-item">
+                        <h1 class="carouselText">
+                            Whatever your OCCASION,<br>
+                            <span>TASTE</span> makes it one <br>
+                            to remember !
+                        </h1>
+                    </div>
+                    <div class="carousel-item">
+                        <h1 class="carouselText">
+                            Whatever your OCCASION,<br>
+                            <span>TASTE</span> makes it one <br>
+                            to remember !
+                        </h1>
+                    </div>
                 </div>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">RESERVATION</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">BLOG</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">TESTIMONIALS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">CONTACT US</a>
-                </li>
-            </ul>
-        </nav>
+            </div>
+            <!-- buttons -->
+            <div id="carouselButtons">
+                <button type="button" class="border none">Purchase theme</button>
+                <button type="button" class="border none">Learn more</button>
+            </div>
+        </section>
+
+        <!-- border -->
+        <div class="bottomDecoration">
+            <!-- <img src="./public/images/bottom_decoration_img.png" alt=""> -->
+        </div>
     </header>
+
+    <!-- section about -->
+    <section id="sectionAbout">
+        <div>
+            <h1>OUR STORY</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo autem, ducimus pariatur rerum fugiat vitae! Sint soluta vitae non cupiditate nisi velit perspiciatis eum voluptatibus similique, alias aperiam, blanditiis quaerat.</p>
+        </div>
+    </section>
 
 
     <!-- jquery -->

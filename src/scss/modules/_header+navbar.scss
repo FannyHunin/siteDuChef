@@ -1,5 +1,4 @@
 body {
-
     header {
         #banner {
             div {
@@ -19,23 +18,20 @@ body {
             }
         }
 
-        // #border {
-        //     background-image: url("../../../public/images/bottom_decoration_img.png");
-        //     position: absolute;
-        //     z-index: 5;
-        //     width: 100%;
-        // }
-
-        nav {
-            margin-top: 30px;
-            width: 100%;
+        .container-fluid {
+            
             position: absolute;
-            top: 0%;
+            top: 0;
+            left: 12.5%;
+            width: 75%;
+            margin-top: 30px;
             z-index: 2;
 
             .nav {
+                width: 100%;
                 display: flex;
                 align-items: center;
+                justify-content: space-around;
 
                 .nav-item {
                     .nav-link {
@@ -43,20 +39,22 @@ body {
                         color: white;
                         padding-top: 20px;
                         padding-bottom: 20px;
-                        padding-left: 50px;
-                        padding-right: 50px;
                         border-top: white solid 1px;
                         border-bottom: white solid 1px;
                     }
-    
+
                     .nav-link:hover {
                         background-color: #C42D40;
-    
+
                     }
                 }
-
-                
             }
+        }
+        .bottomDecoration{
+            width: 100%;
+            position: absolute;
+            top: 50%;
+            background-image: url("../../../public/images/bottom_decoration_img.png");
         }
     }
 }
