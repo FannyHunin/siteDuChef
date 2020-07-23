@@ -25,7 +25,7 @@
                 }
             }
             .container-fluid{
-                border: solid steelblue;
+               
                 width: 100%;
                 #tabMenu {
                     margin-top: 5%;
@@ -39,6 +39,11 @@
                                     flex-direction: column;
                                     font-family: 'Courgette', cursive;
                                     font-size: 30px;
+                                    border-radius: 0%;
+                                    border-bottom: solid 1px #CCCCCC;
+                                    border-right: #CCCCCC solid 1px;
+                                    
+                                    width: 50%;
     
                                     i {
                                         color: #CCCCCC;
@@ -47,7 +52,7 @@
     
                                 .nav-link:focus {
                                     background-color: white;
-                                    border-right: solid #C42D40 2px;
+                                    border-right: solid #C42D40 3px;
     
                                     i {
                                         color: #C42D40;
@@ -59,17 +64,28 @@
                     }
     
                     .col-9 {
+                    
+                        width: 100%;
+                        position: relative;
+                        right: 12.5%;
                         .tab-content {
+                            
                             .tab-pane {
+                                width: 100%;
                                 .row {
-    
-                                    width: 800px;
-    
+                                    
+                                    width: 90%;
+                                    
+                                   
                                     .col-6 {
+                                        padding-bottom: 10px;
+                                        margin-top: 10px;
+                                        padding-left: 50px;
                                         display: flex;
                                         border-bottom: dotted #CCCCCC 1px;
                                         justify-content: space-between;
                                         align-items: center;
+                                        
     
                                         img {
                                             border: #CCCCCC double;
