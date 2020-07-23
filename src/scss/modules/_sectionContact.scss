@@ -1,0 +1,39 @@
+#sectionContact{
+    background-image: url("../../../public/images/main_bg.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 5%;
+    #title{
+        padding-top: 5%;
+        text-align: center;
+        font-family: 'Courgette', cursive;
+        h1{
+            font-size: 50px;
+            span{
+                color: #C42D40;
+            }
+        }
+    }
+    .card{
+        width: 25% !important;
+        margin-top: 5%;
+        text-align: center;
+        background-color: #C42D40;
+        color: white;
+        border: none;
+        border-radius: 15px;
+        .card-body{
+           
+            .fas{
+                font-size: 50px;
+            }
+            .card-title{
+                padding-bottom: 20px;
+                border-bottom: 1px solid white;
+            }
+        }
+    }
+}
