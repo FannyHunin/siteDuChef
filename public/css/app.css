@@ -128,7 +128,7 @@ body header .bottomDecoration {
 
 #sectionMenu {
   background-image: url("../../../public/images/main_bg.jpg");
-  padding-bottom: 3%;
+  padding-bottom: 5%;
   /*menuText*/
 }
 #sectionMenu #ourMenu {
@@ -330,6 +330,87 @@ body header .bottomDecoration {
 .container-fluidRB #sectionReservation #forms div button:hover {
   color: #C42D40;
   background-color: white;
+}
+
+.container-fluidRB {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.container-fluidRB #blog {
+  width: 75%;
+  background-color: white;
+  text-align: center;
+  position: relative;
+}
+.container-fluidRB #blog h1 {
+  margin-top: 75px;
+  font-size: 50px;
+  font-family: "Courgette", cursive;
+}
+.container-fluidRB #blog h1 span {
+  color: #C42D40;
+}
+.container-fluidRB #blog #cards {
+  width: 100%;
+  margin-top: 75px;
+  display: flex;
+  justify-content: center;
+}
+.container-fluidRB #blog #cards .row {
+  width: 75%;
+}
+.container-fluidRB #blog #cards .row .col-6 {
+  display: flex;
+  justify-content: center;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.container-fluidRB #blog #cards .row .col-6 .card {
+  width: 75%;
+}
+.container-fluidRB #blog #cards .row .col-6 .card img {
+  border: solid #CCCCCC 6px;
+  border-radius: 5px;
+}
+.container-fluidRB #blog #cards .row .col-6 .card .card-body {
+  position: relative;
+  border: none !important;
+}
+.container-fluidRB #blog #cards .row .col-6 .card .card-body h5 {
+  position: absolute;
+  top: -25%;
+  left: 8%;
+  background-color: #C42D40;
+  color: white;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  font-size: 18px;
+}
+.container-fluidRB #blog button {
+  border: none;
+  background-color: #C42D40;
+  color: white;
+  border-radius: 20px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+.container-fluidRB #blog button:hover {
+  background-color: #CCCCCC;
+  color: #C42D40;
+}
+.container-fluidRB #blog .bottomDeco {
+  margin-top: 50px;
+}
+.container-fluidRB #blog .bottomDeco #line {
+  position: absolute;
+  bottom: 10%;
+  right: 34.5%;
+}
+.container-fluidRB #blog .bottomDeco div {
+  display: flex;
+  justify-content: space-between;
 }
 
 /*!
