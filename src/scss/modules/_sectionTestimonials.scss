@@ -1,0 +1,52 @@
+#sectionTestimonials {
+    padding-top: 5%;
+    background-image: url("../../../public/images/testimonials_background.jpg");
+
+    #title {
+
+        text-align: center;
+        font-family: 'Courgette', cursive;
+
+        h1 {
+            font-size: 50px;
+            color: white;
+        }
+
+        span {
+            color: #C42D40;
+        }
+    }
+
+    #cards {
+        margin-top: 5%;
+        display: flex;
+        justify-content: center;
+        .row {
+            .col-6{
+                .card{
+                    color: white;
+                    background-color: transparent;
+                    .row{
+                        .col-md-8{
+                            .card-body{
+                                border: #CCCCCC solid 1px;
+                                border-radius: 15px;
+                                margin-left: 20px;
+                                margin-right: 20px;
+                                span{
+                                    color: #C42D40;
+                                }
+                            }
+                        }
+                        .col-md-4{
+                            img{
+                                border-radius: 50%;
+                                border: #CCCCCC solid ;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

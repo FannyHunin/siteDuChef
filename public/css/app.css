@@ -413,6 +413,44 @@ body header .bottomDecoration {
   justify-content: space-between;
 }
 
+#sectionTestimonials {
+  padding-top: 5%;
+  background-image: url("../../../public/images/testimonials_background.jpg");
+}
+#sectionTestimonials #title {
+  text-align: center;
+  font-family: "Courgette", cursive;
+}
+#sectionTestimonials #title h1 {
+  font-size: 50px;
+  color: white;
+}
+#sectionTestimonials #title span {
+  color: #C42D40;
+}
+#sectionTestimonials #cards {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+#sectionTestimonials #cards .row .col-6 .card {
+  color: white;
+  background-color: transparent;
+}
+#sectionTestimonials #cards .row .col-6 .card .row .col-md-8 .card-body {
+  border: #CCCCCC solid 1px;
+  border-radius: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#sectionTestimonials #cards .row .col-6 .card .row .col-md-8 .card-body span {
+  color: #C42D40;
+}
+#sectionTestimonials #cards .row .col-6 .card .row .col-md-4 img {
+  border-radius: 50%;
+  border: #CCCCCC solid;
+}
+
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
