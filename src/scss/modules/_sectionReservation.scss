@@ -1,0 +1,74 @@
+.container-fluidRB{
+    background-image: url("../../../public/images/main_bg.jpg");
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    #sectionReservation{
+        width: 75%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        #title{
+            font-family: 'Courgette', cursive;
+            text-align: center;
+            width: 100%;
+            div{
+                display: flex;
+                justify-content: space-between;
+            }
+            h1{
+                font-size: 50px;
+            }
+            span{
+                color: #C42D40;
+            }
+
+        }
+        #forms{
+            width: 65%;
+            padding: 5px;
+            border-radius: 15px;
+            margin-top: 3%;
+            background-image: url("../../../public/images/book_table_bg.jpg");
+            h5{
+                margin-top: 50px;
+                color: white;
+                text-align: center;
+            }
+            form{
+                .row{
+                    margin: 50px;
+                    .col{
+                        .form-control{
+                            padding: 30px;
+                            border-radius: 20px;
+                        }
+                        .custom-select{
+                            padding: 30px;
+                            border-radius: 20px;
+                        }
+                    }
+
+                }
+            }
+            div{
+                display: flex;
+                justify-content: center;
+                button{
+                    border: none;
+                    background-color: #C42D40;
+                    color: white;
+                    border-radius: 20px;
+                    padding: 15px;
+                    margin-bottom: 10px;
+                }
+                button:hover{
+                    color: #C42D40;
+                    background-color: white;
+                }
+            }
+        }
+    }
+}

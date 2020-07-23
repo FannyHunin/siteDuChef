@@ -263,6 +263,75 @@ body header .bottomDecoration {
   border-bottom: white 1px solid;
 }
 
+.container-fluidRB {
+  background-image: url("../../../public/images/main_bg.jpg");
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.container-fluidRB #sectionReservation {
+  width: 75%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-fluidRB #sectionReservation #title {
+  font-family: "Courgette", cursive;
+  text-align: center;
+  width: 100%;
+}
+.container-fluidRB #sectionReservation #title div {
+  display: flex;
+  justify-content: space-between;
+}
+.container-fluidRB #sectionReservation #title h1 {
+  font-size: 50px;
+}
+.container-fluidRB #sectionReservation #title span {
+  color: #C42D40;
+}
+.container-fluidRB #sectionReservation #forms {
+  width: 65%;
+  padding: 5px;
+  border-radius: 15px;
+  margin-top: 3%;
+  background-image: url("../../../public/images/book_table_bg.jpg");
+}
+.container-fluidRB #sectionReservation #forms h5 {
+  margin-top: 50px;
+  color: white;
+  text-align: center;
+}
+.container-fluidRB #sectionReservation #forms form .row {
+  margin: 50px;
+}
+.container-fluidRB #sectionReservation #forms form .row .col .form-control {
+  padding: 30px;
+  border-radius: 20px;
+}
+.container-fluidRB #sectionReservation #forms form .row .col .custom-select {
+  padding: 30px;
+  border-radius: 20px;
+}
+.container-fluidRB #sectionReservation #forms div {
+  display: flex;
+  justify-content: center;
+}
+.container-fluidRB #sectionReservation #forms div button {
+  border: none;
+  background-color: #C42D40;
+  color: white;
+  border-radius: 20px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+.container-fluidRB #sectionReservation #forms div button:hover {
+  color: #C42D40;
+  background-color: white;
+}
+
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
