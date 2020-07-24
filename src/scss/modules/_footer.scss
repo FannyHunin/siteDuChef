@@ -1,0 +1,77 @@
+footer {
+    background-image: url("../../../public/images/footer_background.jpg");
+
+    #part1 {
+        color: white;
+        display: flex;
+        justify-content: center;
+
+        .row {
+            display: flex;
+            justify-content: center;
+
+            .col-4 {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                padding-left: 50px;
+                h3{
+                    padding-bottom: 25px;
+                }
+                
+                #icons {
+                    list-style: none;
+                    display: flex;
+                    justify-content: space-between;
+                    width:40%;
+                    padding: 0 !important;
+
+                    li {
+                        .fab {
+                            font-size: 40px;
+                            
+                        }
+                    }
+                }
+            }
+
+            .col-4 {
+                padding-bottom: 25px;
+                div{ 
+                    width: 100%;
+                    .row{
+                       width: 75%; 
+                       margin-bottom: 30px;
+                    }
+                }
+            }
+
+            .col-4 {
+                #tags {
+                    list-style: none;
+                    display: flex;
+                    flex-wrap: wrap;
+                    padding: 0 !important;
+                    width: 90%;
+                    li {
+                        font-size: 20px;
+                        background-color: #C42D40;
+                        border:  white 1px solid;
+                        padding: 10px;
+                        border-radius: 25px;
+                        margin-left: 10px;
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+
+    }
+
+    #part2 {
+        height: 100px;
+        background-color: #C42D40;
+    }
+}
