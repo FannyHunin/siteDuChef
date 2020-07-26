@@ -1,4 +1,4 @@
-#sectionContact{
+#sectionContact {
     background-image: url("../../../public/images/main_bg.jpg");
     display: flex;
     flex-direction: column;
@@ -6,31 +6,37 @@
     align-items: center;
     width: 100%;
     padding-bottom: 5%;
-    #title{
+
+    #title {
         padding-top: 5%;
         text-align: center;
         font-family: 'Courgette', cursive;
-        h1{
+
+        h1 {
             font-size: 50px;
-            span{
+
+            span {
                 color: #C42D40;
             }
         }
     }
-    .card{
-        width: 20% !important;
+
+    .card {
+        
         margin-top: 5%;
         text-align: center;
         background-color: #C42D40;
         color: white;
         border: none;
         border-radius: 15px;
-        .card-body{
-           
-            .fas{
+
+        .card-body {
+
+            .fas {
                 font-size: 50px;
             }
-            .card-title{
+
+            .card-title {
                 padding-bottom: 20px;
                 border-bottom: 1px solid white;
             }

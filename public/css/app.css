@@ -489,7 +489,6 @@ html body #border {
   color: #C42D40;
 }
 #sectionContact .card {
-  width: 20% !important;
   margin-top: 5%;
   text-align: center;
   background-color: #C42D40;
@@ -826,6 +825,11 @@ footer #part2 {
   .container-fluidRB .bottomDeco #line {
     bottom: 10%;
     right: 34.5%;
+  }
+}
+@media (min-width: 601px) {
+  #sectionContact .card {
+    width: 20% !important;
   }
 }
 /*!
