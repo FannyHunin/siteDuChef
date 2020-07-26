@@ -3,13 +3,10 @@
 html {
   scroll-behavior: smooth;
 }
-html body {
-  overflow-x: hidden;
-}
 html body header #banner div {
   width: 100%;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.8);
   position: relative;
   top: 0;
   z-index: 1;
@@ -20,35 +17,39 @@ html body header #banner #bannerImg {
   position: absolute;
   top: 0;
 }
-html body header .container-fluid, html body header .container-xl, html body header .container-lg, html body header .container-md, html body header .container-sm {
+html body header .navbar {
+  z-index: 1;
   position: fixed;
   top: 0;
-  left: 15.6%;
-  width: 75%;
-  margin-top: 30px;
-  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  padding-bottom: 50px;
 }
-html body header .container-fluid .nav, html body header .container-xl .nav, html body header .container-lg .nav, html body header .container-md .nav, html body header .container-sm .nav {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+html body header .navbar .collapse img {
+  margin-top: 25px;
+  margin-left: 50px !important;
+  margin-right: 50px !important;
 }
-html body header .container-fluid .nav .nav-item .nav-link, html body header .container-xl .nav .nav-item .nav-link, html body header .container-lg .nav .nav-item .nav-link, html body header .container-md .nav .nav-item .nav-link, html body header .container-sm .nav .nav-item .nav-link {
-  font-weight: bolder;
-  color: white;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  border-top: white solid 1px;
-  border-bottom: white solid 1px;
+html body header .navbar .collapse .navbar-nav {
+  padding-top: 50px;
 }
-html body header .container-fluid .nav .nav-item .nav-link:hover, html body header .container-xl .nav .nav-item .nav-link:hover, html body header .container-lg .nav .nav-item .nav-link:hover, html body header .container-md .nav .nav-item .nav-link:hover, html body header .container-sm .nav .nav-item .nav-link:hover {
+html body header .navbar .collapse .navbar-nav .nav-item {
+  padding: 25px 50px 25px 50px !important;
+  color: white !important;
+  border-top: white solid 2px;
+  border-bottom: white solid 2px;
+}
+html body header .navbar .collapse .navbar-nav .nav-item:hover {
   background-color: #C42D40;
 }
 html body header .bottomDecoration {
   width: 100%;
   position: absolute;
   top: 50%;
+  background-image: url("../../../public/images/bottom_decoration_img.png");
+}
+html body #border {
+  height: 10px;
+  background-color: #303031;
   background-image: url("../../../public/images/bottom_decoration_img.png");
 }
 
@@ -71,7 +72,6 @@ html body header .bottomDecoration {
 #headerCarousel #carouselExampleSlidesOnly .carousel-inner .carousel-item .carouselText {
   color: white;
   text-align: center;
-  font-size: 80px;
   font-family: "Courgette", cursive;
 }
 #headerCarousel #carouselExampleSlidesOnly .carousel-inner .carousel-item .carouselText span {
@@ -119,10 +119,8 @@ html body header .bottomDecoration {
   width: 50%;
   text-align: center;
   position: relative;
-  top: -10%;
 }
 #sectionAbout #ourStory .text h1 {
-  font-size: 50px;
   font-family: "Courgette", cursive;
 }
 #sectionAbout #ourStory .text h1 span {
@@ -168,14 +166,10 @@ html body header .bottomDecoration {
 }
 #sectionMenu #ourMenu .text .container-fluid #tabMenu .row .col-3 .nav .nav-link, #sectionMenu #ourMenu .text .container-xl #tabMenu .row .col-3 .nav .nav-link, #sectionMenu #ourMenu .text .container-lg #tabMenu .row .col-3 .nav .nav-link, #sectionMenu #ourMenu .text .container-md #tabMenu .row .col-3 .nav .nav-link, #sectionMenu #ourMenu .text .container-sm #tabMenu .row .col-3 .nav .nav-link {
   color: black;
-  display: flex;
-  flex-direction: column;
   font-family: "Courgette", cursive;
-  font-size: 30px;
   border-radius: 0%;
   border-bottom: solid 1px #CCCCCC;
   border-right: #CCCCCC solid 1px;
-  width: 50%;
 }
 #sectionMenu #ourMenu .text .container-fluid #tabMenu .row .col-3 .nav .nav-link i, #sectionMenu #ourMenu .text .container-xl #tabMenu .row .col-3 .nav .nav-link i, #sectionMenu #ourMenu .text .container-lg #tabMenu .row .col-3 .nav .nav-link i, #sectionMenu #ourMenu .text .container-md #tabMenu .row .col-3 .nav .nav-link i, #sectionMenu #ourMenu .text .container-sm #tabMenu .row .col-3 .nav .nav-link i {
   color: #CCCCCC;
@@ -209,11 +203,9 @@ html body header .bottomDecoration {
 }
 #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane .row .col-6 img, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane .row .col-6 img, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane .row .col-6 img, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane .row .col-6 img, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane .row .col-6 img {
   border: #CCCCCC double;
-  width: 20%;
   border-radius: 50%;
-}
-#sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div {
-  width: 500px;
+  width: 50px;
+  height: 50x;
 }
 #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h5, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h5, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h5, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h5, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h5 {
   font-weight: bolder;
@@ -229,11 +221,6 @@ html body header .bottomDecoration {
   width: 75%;
   position: relative;
   left: 12.5%;
-}
-#sectionMenu .bottomDeco #line {
-  position: absolute;
-  left: 35%;
-  bottom: 40%;
 }
 #sectionMenu .bottomDeco div {
   display: flex;
@@ -256,17 +243,55 @@ html body header .bottomDecoration {
   color: #C42D40;
 }
 #sectionTeam #cards {
-  display: flex;
-  justify-content: center;
   margin-top: 5%;
 }
-#sectionTeam #cards .card {
+#sectionTeam #cards .row {
+  display: flex;
+  justify-content: center;
+}
+#sectionTeam #cards .row .card {
   background-color: rgba(0, 0, 0, 0);
   margin-left: 2%;
   margin-right: 2%;
 }
-#sectionTeam #cards .card img {
+#sectionTeam #cards .row .card .card-img {
   border-bottom: white 1px solid;
+}
+#sectionTeam #cards .row .card .card-img .overlay {
+  color: white;
+  position: absolute;
+  bottom: 65px;
+  left: 0;
+  right: 0;
+  background-color: #C42D40;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid white;
+}
+#sectionTeam #cards .row .card .card-img .overlay h6 {
+  text-align: center;
+  border-bottom: 1px solid white;
+  width: 100%;
+  padding-bottom: 10px;
+}
+#sectionTeam #cards .row .card .card-img .overlay ul {
+  display: flex;
+  list-style: none;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+#sectionTeam #cards .row .card .card-img .overlay ul li {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#sectionTeam #cards .row .card .card-img:hover .overlay {
+  height: 20%;
 }
 
 .container-fluidRB {
@@ -495,6 +520,12 @@ html body header .bottomDecoration {
   border-bottom: 1px solid white;
 }
 
+#borderFooter {
+  background-image: url("../../../public/images/footer_bottom_decoration_img.png");
+  background-color: #0D0906;
+  height: 10px;
+}
+
 footer {
   background-image: url("../../../public/images/footer_background.jpg");
 }
@@ -553,6 +584,12 @@ footer #part1 .row .col-4 #tags li {
   border-radius: 25px;
   margin-left: 10px;
   margin-right: 10px;
+  margin-bottom: 10px;
+}
+footer #part1 .row .col-4 #tags li:hover {
+  color: #C42D40;
+  background-color: white;
+  border: #C42D40 1px solid;
 }
 footer #part2 {
   height: 100px;
@@ -10467,6 +10504,186 @@ h3 {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6;
+  }
+}
+@media (min-width: 320px) and (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
+  body header #banner #bannerImg {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+  }
+}
+@media (min-width: 601px) {
+  body {
+    overflow-x: hidden;
+  }
+  body header #banner #bannerImg {
+    height: 100vh;
+    position: absolute;
+    top: 0;
+  }
+}
+@media (min-width: 320px) and (max-width: 600px) {
+  #headerCarousel #carouselExampleSlidesOnly .carousel-inner .carousel-item .carouselText {
+    font-size: 30px;
+  }
+}
+@media (min-width: 601px) {
+  #headerCarousel #carouselExampleSlidesOnly .carousel-inner .carousel-item .carouselText {
+    font-size: 80px;
+  }
+}
+@media (min-width: 320px) and (max-width: 600px) {
+  #sectionAbout #ourStory .text {
+    top: 0%;
+  }
+  #sectionAbout #ourStory .text h1 {
+    font-size: 50px;
+  }
+  #sectionAbout #ourStory .text img {
+    width: 100%;
+  }
+}
+@media (min-width: 601px) {
+  #sectionAbout #ourStory .text {
+    top: 0%;
+  }
+  #sectionAbout #ourStory .text h1 {
+    font-size: 70px;
+  }
+  #sectionAbout #ourStory .text img {
+    width: 100%;
+  }
+}
+@media (min-width: 320px) and (max-width: 600px) {
+  #sectionMenu #ourMenu .text h1 {
+    font-size: 55px;
+  }
+  #sectionMenu #ourMenu .text img {
+    width: 100%;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .row .col-3 .nav, #sectionMenu #ourMenu .text .container-sm #tabMenu .row .col-3 .nav, #sectionMenu #ourMenu .text .container-md #tabMenu .row .col-3 .nav, #sectionMenu #ourMenu .text .container-lg #tabMenu .row .col-3 .nav, #sectionMenu #ourMenu .text .container-xl #tabMenu .row .col-3 .nav {
+    width: 90px;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .row .col-3 .nav .nav-link, #sectionMenu #ourMenu .text .container-sm #tabMenu .row .col-3 .nav .nav-link, #sectionMenu #ourMenu .text .container-md #tabMenu .row .col-3 .nav .nav-link, #sectionMenu #ourMenu .text .container-lg #tabMenu .row .col-3 .nav .nav-link, #sectionMenu #ourMenu .text .container-xl #tabMenu .row .col-3 .nav .nav-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    width: 100%;
+    font-size: 15px;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    position: relative;
+    right: -11%;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane {
+    width: 100%;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane .row, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane .row, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane .row, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane .row, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane .row {
+    width: 90%;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane .row .col-6, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane .row .col-6, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane .row .col-6, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane .row .col-6, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane .row .col-6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane .row .col-6 img, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane .row .col-6 img, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane .row .col-6 img, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane .row .col-6 img, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane .row .col-6 img {
+    border: #CCCCCC double;
+    border-radius: 50%;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div {
+    width: 100px;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h5, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h5, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h5, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h5, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h5 {
+    font-weight: bolder;
+    font-size: 15px;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h6, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h6, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h6, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h6, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h6 {
+    font-size: 10px;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane .row .col-6 p, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane .row .col-6 p, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane .row .col-6 p, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane .row .col-6 p, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane .row .col-6 p {
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #CCCCCC;
+    font-size: 10px;
+  }
+  #sectionMenu .bottomDeco #line {
+    position: absolute;
+    bottom: 60%;
+    width: 100%;
+  }
+}
+@media (min-width: 601px) {
+  #sectionMenu #ourMenu .text h1 {
+    font-size: 70px;
+  }
+  #sectionMenu #ourMenu .text img {
+    width: 50%;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .row .col-3 .nav, #sectionMenu #ourMenu .text .container-sm #tabMenu .row .col-3 .nav, #sectionMenu #ourMenu .text .container-md #tabMenu .row .col-3 .nav, #sectionMenu #ourMenu .text .container-lg #tabMenu .row .col-3 .nav, #sectionMenu #ourMenu .text .container-xl #tabMenu .row .col-3 .nav {
+    width: 75%;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .row .col-3 .nav .nav-link, #sectionMenu #ourMenu .text .container-sm #tabMenu .row .col-3 .nav .nav-link, #sectionMenu #ourMenu .text .container-md #tabMenu .row .col-3 .nav .nav-link, #sectionMenu #ourMenu .text .container-lg #tabMenu .row .col-3 .nav .nav-link, #sectionMenu #ourMenu .text .container-xl #tabMenu .row .col-3 .nav .nav-link {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 {
+    width: 100%;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content {
+    width: 100%;
+    margin-left: 100px;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane {
+    width: 100%;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane .row, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane .row, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane .row, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane .row, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane .row {
+    width: 100%;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane .row .col-6, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane .row .col-6, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane .row .col-6, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane .row .col-6, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane .row .col-6 {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    width: 600px;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane .row .col-6 img, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane .row .col-6 img, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane .row .col-6 img, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane .row .col-6 img, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane .row .col-6 img {
+    border: #CCCCCC double;
+    width: 100px;
+    border-radius: 50%;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div {
+    width: 100%;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h5, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h5, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h5, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h5, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h5 {
+    font-weight: bolder;
+    font-size: 25px;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h6, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h6, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h6, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h6, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h6 {
+    font-size: 20px;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane .row .col-6 p, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane .row .col-6 p, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane .row .col-6 p, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane .row .col-6 p, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane .row .col-6 p {
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #CCCCCC;
+    font-size: 20px;
+  }
+  #sectionMenu .bottomDeco #line {
+    position: absolute;
+    bottom: 40%;
+    left: 25%;
+    width: 50%;
   }
 }
 

@@ -1,3 +1,8 @@
+#borderFooter{
+    background-image: url("../../../public/images/footer_bottom_decoration_img.png");
+    background-color: #0D0906;
+    height: 10px;
+}
 footer {
     background-image: url("../../../public/images/footer_background.jpg");
 
@@ -63,6 +68,12 @@ footer {
                         border-radius: 25px;
                         margin-left: 10px;
                         margin-right: 10px;
+                        margin-bottom: 10px;
+                    }
+                    li:hover{
+                        color: #C42D40;
+                        background-color: white;
+                        border: #C42D40 1px solid;
                     }
                 }
             }

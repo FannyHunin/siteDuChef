@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./public/css/app.css">
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+
     <title>Document</title>
 </head>
 
@@ -20,41 +21,30 @@
             </div>
             <img src="./public/images/banner1.jpg" alt="" id="bannerImg">
         </div>
-        <!-- navbar -->
-        <div class="container-fluid">
-            <ul class="nav justify-content-center">
-                <li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">HOME</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#sectionAbout">ABOUT US</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#sectionMenu">MENU LIST</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#sectionTeam">TEAM</a>
-                </li>
-                </li>
-                <!-- logo -->
-                <div id="logoImg" class=" ml-5 mr-5" style="height: 105px;">
-                    <img src="./public/images/logo.png" alt="">
+       
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light w-100">
+            <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">HOME<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#sectionAbout">ABOUT US</a>
+                    <a class="nav-item nav-link" href="#sectionMenu">MENU LIST</a>
+                    <a class="nav-item nav-link" href="#sectionTeam">TEAM</a>
                 </div>
-                <li class="nav-item">
-                    <a class="nav-link" href="#sectionReservation">RESERVATION</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#blog">BLOG</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#sectionTestimonials">TESTIMONIALS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#sectionContact">CONTACT US</a>
-                </li>
-            </ul>
-        </div>
+                <img src="./public/images/logo.png" alt="">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#sectionReservation">RESERVATION <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#blog">BLOG</a>
+                    <a class="nav-item nav-link" href="#sectionTestimonials">TESTIMONIALS</a>
+                    <a class="nav-item nav-link" href="#sectionContact">CONTACT US</a>
+                </div>
+            </div>
+
+        </nav>
 
         <!-- header carousel -->
         <section id="headerCarousel">
@@ -101,6 +91,10 @@
             <!-- <img src="./public/images/bottom_decoration_img.png" alt=""> -->
         </div>
     </header>
+
+    <div id="border">
+
+    </div>
 
     <!-- section about -->
     <section id="sectionAbout">
@@ -557,31 +551,108 @@
         </div>
         <!-- cards -->
         <div id="cards">
-            <div class="card" style="width: 18rem;">
-                <img src="./public/images/chef1.png" class="card-img-top" alt="...">
-                <div class="card-body">
+            <div class="row">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-img">
+                        <img src="./public/images/chef1.png" class="card-img-top" alt="...">
+                        <div class="overlay">
+                            <h4>Lorem, ipsum.</h4>
+                            <h6>Continental Chef</h6>
+                            <ul>
+                                <li>
+                                    <i class="fab fa-facebook-f"></i>
+                                </li>
+                                <li>
+                                    <i class="fab fa-google-plus-g"></i>
+                                </li>
+                                <li>
+                                    <i class="fab fa-pinterest-p"></i>
+                                </li>
+                                <li>
+                                    <i class="fab fa-linkedin-in"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text text-white text-center">Lorem ipsum</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <div class="card-img">
+                        <img src="./public/images/chef2.png" class="card-img-top" alt="...">
+                        <div class="overlay">
+                            <h4>Lorem, ipsum.</h4>
+                            <h6>Continental Chef</h6>
+                            <ul>
+                                <li>
+                                    <i class="fab fa-facebook-f"></i>
+                                </li>
+                                <li>
+                                    <i class="fab fa-google-plus-g"></i>
+                                </li>
+                                <li>
+                                    <i class="fab fa-pinterest-p"></i>
+                                </li>
+                                <li>
+                                    <i class="fab fa-linkedin-in"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                     <p class="card-text text-white text-center">Lorem ipsum</p>
                 </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src="./public/images/chef2.png" class="card-img-top" alt="...">
-                <div class="card-body">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-img">
+                        <img src="./public/images/chef3.png" class="card-img-top" alt="...">
+                        <div class="overlay">
+                            <h4>Lorem, ipsum.</h4>
+                            <h6>Continental Chef</h6>
+                            <ul>
+                                <li>
+                                    <i class="fab fa-facebook-f"></i>
+                                </li>
+                                <li>
+                                    <i class="fab fa-google-plus-g"></i>
+                                </li>
+                                <li>
+                                    <i class="fab fa-pinterest-p"></i>
+                                </li>
+                                <li>
+                                    <i class="fab fa-linkedin-in"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                     <p class="card-text text-white text-center">Lorem ipsum</p>
                 </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src="./public/images/chef3.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text text-white text-center">Lorem ipsum</p>
-                </div>
-            </div>
-            <div class="card " style="width: 18rem;">
-                <img src="./public/images/chef4.png" class="card-img-top" alt="...">
-                <div class="card-body ">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-img">
+                        <img src="./public/images/chef4.png" class="card-img-top" alt="...">
+                        <div class="overlay">
+                            <h4>Lorem, ipsum.</h4>
+                            <h6>Continental Chef</h6>
+                            <ul>
+                                <li>
+                                    <i class="fab fa-facebook-f"></i>
+                                </li>
+                                <li>
+                                    <i class="fab fa-google-plus-g"></i>
+                                </li>
+                                <li>
+                                    <i class="fab fa-pinterest-p"></i>
+                                </li>
+                                <li>
+                                    <i class="fab fa-linkedin-in"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                     <p class="card-text text-white text-center">Lorem ipsum</p>
                 </div>
             </div>
         </div>
+
     </section>
 
     <!-- section reservation + blog -->
@@ -773,6 +844,10 @@
             </div>
         </div>
     </section>
+
+    <div id="borderFooter">
+
+    </div>
 
     <!-- footer -->
     <footer>

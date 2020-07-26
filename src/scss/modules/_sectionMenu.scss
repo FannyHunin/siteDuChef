@@ -1,8 +1,6 @@
 #sectionMenu {
     background-image: url("../../../public/images/main_bg.jpg");
     padding-bottom: 5%;
-    // display: flex;
-    // justify-content: center;
     
     /*menuText*/
     #ourMenu {
@@ -42,15 +40,11 @@
                             .nav {
                                 .nav-link {
                                     color: black;
-                                    display: flex;
-                                    flex-direction: column;
+                                    
                                     font-family: 'Courgette', cursive;
-                                    font-size: 30px;
                                     border-radius: 0%;
                                     border-bottom: solid 1px #CCCCCC;
                                     border-right: #CCCCCC solid 1px;
-
-                                    width: 50%;
 
                                     i {
                                         color: #CCCCCC;
@@ -80,9 +74,8 @@
 
                             .tab-pane {
                                 width: 100%;
-
+                            
                                 .row {
-
                                     width: 90%;
 
 
@@ -98,13 +91,12 @@
 
                                         img {
                                             border: #CCCCCC double;
-                                            width: 20%;
                                             border-radius: 50%;
+                                            width: 50px;
+                                            height: 50x;
                                         }
 
                                         div {
-                                            width: 500px;
-
                                             h5 {
                                                 font-weight: bolder;
                                             }
@@ -134,10 +126,6 @@
         position: relative;
         left: 12.5%;
         #line{
-            position: absolute;
-            left: 35%;
-            bottom: 40%;
-
         }
         div{
             display: flex;

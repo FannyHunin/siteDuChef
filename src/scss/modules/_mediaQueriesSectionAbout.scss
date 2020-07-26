@@ -1,0 +1,33 @@
+@media (min-width : 320px) and (max-width : 600px){
+    #sectionAbout{
+        #ourStory{
+            .text{
+                top: 0%;
+                h1{
+                    font-size: 50px;
+                }
+                img{
+                    width: 100%;
+                   
+                }
+            }
+        }
+    }
+}
+
+@media (min-width : 601px){
+    #sectionAbout{
+        #ourStory{
+            .text{
+                top: 0%;
+                h1{
+                    font-size: 70px;
+                }
+                img{
+                    width: 100%;
+                   
+                }
+            }
+        }
+    }
+}
