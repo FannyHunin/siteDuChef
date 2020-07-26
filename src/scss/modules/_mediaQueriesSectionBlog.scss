@@ -1,0 +1,75 @@
+@media (min-width : 320px) and (max-width : 600px){
+    .container-fluidRB{
+        #blog{
+            img{
+                width: 100%;
+            }
+            #cards{
+                .row{
+                    .col-6{
+                        display: flex;
+                        justify-content: center;
+                        .card{
+                            width: 200px !important;
+                            display: flex;
+                           
+                            .card-body{
+                                width: 100px;
+                                display: flex;
+                                h5{
+                                    font-size: 15px;
+                                    width: 75px;
+                                    top: 15%;
+                                    right: 5%;
+                                }
+                                p{
+                                    width: 100px;
+                                    font-size: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .bottomDeco{
+            #line{
+                width: 100%;
+                top:85%;
+                left: 0%;
+            }
+        }
+    }
+}
+
+@media (min-width : 601px){
+    .container-fluidRB{
+        #blog{
+            #cards{
+                .row{
+                    .col-6{
+                        .card{
+                            width: 75%;
+                            .card-body{
+                                position: relative;
+                                h5{
+                                    top: -25%;
+                                    left: 8%;
+                                    padding: 10px;
+                                padding-top: 20px;
+                                padding-bottom: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .bottomDeco{
+            #line{
+                bottom: 10%;
+                right: 34.5%;
+            }
+        }
+    }
+}

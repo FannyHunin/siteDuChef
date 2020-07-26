@@ -30,23 +30,19 @@
                     padding: 0 !important;
                      margin: 0 !important;
                     .card{
-                        width: 75%;
+                        
                         img{
                             border: solid #CCCCCC 6px;
                             border-radius: 5px;
                         }
                         .card-body{
-                            position: relative;
+                            
                             border: none !important;
                             h5{
                                 position: absolute;
-                                top: -25%;
-                                left: 8%;
                                 background-color: #C42D40;
                                 color: white;
-                                padding: 10px;
-                                padding-top: 20px;
-                                padding-bottom: 20px;
+                                
                                 border-radius: 20px;
                                 font-size: 18px;
                             }
@@ -71,8 +67,7 @@
             margin-top: 50px;
             #line{
                 position: absolute;
-                bottom: 10%;
-                right: 34.5%;
+                
                 
             }
             div{

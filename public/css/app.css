@@ -392,26 +392,17 @@ html body #border {
   padding: 0 !important;
   margin: 0 !important;
 }
-.container-fluidRB #blog #cards .row .col-6 .card {
-  width: 75%;
-}
 .container-fluidRB #blog #cards .row .col-6 .card img {
   border: solid #CCCCCC 6px;
   border-radius: 5px;
 }
 .container-fluidRB #blog #cards .row .col-6 .card .card-body {
-  position: relative;
   border: none !important;
 }
 .container-fluidRB #blog #cards .row .col-6 .card .card-body h5 {
   position: absolute;
-  top: -25%;
-  left: 8%;
   background-color: #C42D40;
   color: white;
-  padding: 10px;
-  padding-top: 20px;
-  padding-bottom: 20px;
   border-radius: 20px;
   font-size: 18px;
 }
@@ -432,8 +423,6 @@ html body #border {
 }
 .container-fluidRB #blog .bottomDeco #line {
   position: absolute;
-  bottom: 10%;
-  right: 34.5%;
 }
 .container-fluidRB #blog .bottomDeco div {
   display: flex;
@@ -592,6 +581,253 @@ footer #part2 {
   background-color: #C42D40;
 }
 
+@media (min-width: 320px) and (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
+  body header #banner #bannerImg {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+  }
+}
+@media (min-width: 601px) {
+  body {
+    overflow-x: hidden;
+  }
+  body header #banner #bannerImg {
+    height: 100vh;
+    position: absolute;
+    top: 0;
+  }
+}
+@media (min-width: 320px) and (max-width: 600px) {
+  #headerCarousel #carouselExampleSlidesOnly .carousel-inner .carousel-item .carouselText {
+    font-size: 30px;
+  }
+}
+@media (min-width: 601px) {
+  #headerCarousel #carouselExampleSlidesOnly .carousel-inner .carousel-item .carouselText {
+    font-size: 80px;
+  }
+}
+@media (min-width: 320px) and (max-width: 600px) {
+  #sectionAbout #ourStory .text {
+    top: 0%;
+  }
+  #sectionAbout #ourStory .text h1 {
+    font-size: 50px;
+  }
+  #sectionAbout #ourStory .text img {
+    width: 100%;
+  }
+}
+@media (min-width: 601px) {
+  #sectionAbout #ourStory .text {
+    top: 0%;
+  }
+  #sectionAbout #ourStory .text h1 {
+    font-size: 70px;
+  }
+  #sectionAbout #ourStory .text img {
+    width: 100%;
+  }
+}
+@media (min-width: 320px) and (max-width: 600px) {
+  #sectionMenu #ourMenu .text h1 {
+    font-size: 55px;
+  }
+  #sectionMenu #ourMenu .text img {
+    width: 100%;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .row .col-3 .nav, #sectionMenu #ourMenu .text .container-xl #tabMenu .row .col-3 .nav, #sectionMenu #ourMenu .text .container-lg #tabMenu .row .col-3 .nav, #sectionMenu #ourMenu .text .container-md #tabMenu .row .col-3 .nav, #sectionMenu #ourMenu .text .container-sm #tabMenu .row .col-3 .nav {
+    width: 90px;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .row .col-3 .nav .nav-link, #sectionMenu #ourMenu .text .container-xl #tabMenu .row .col-3 .nav .nav-link, #sectionMenu #ourMenu .text .container-lg #tabMenu .row .col-3 .nav .nav-link, #sectionMenu #ourMenu .text .container-md #tabMenu .row .col-3 .nav .nav-link, #sectionMenu #ourMenu .text .container-sm #tabMenu .row .col-3 .nav .nav-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    width: 100%;
+    font-size: 15px;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    position: relative;
+    right: -11%;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane {
+    width: 100%;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane .row, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane .row, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane .row, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane .row, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane .row {
+    width: 90%;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane .row .col-6, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane .row .col-6, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane .row .col-6, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane .row .col-6, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane .row .col-6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane .row .col-6 img, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane .row .col-6 img, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane .row .col-6 img, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane .row .col-6 img, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane .row .col-6 img {
+    border: #CCCCCC double;
+    border-radius: 50%;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div {
+    width: 100px;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h5, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h5, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h5, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h5, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h5 {
+    font-weight: bolder;
+    font-size: 15px;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h6, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h6, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h6, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h6, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h6 {
+    font-size: 10px;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane .row .col-6 p, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane .row .col-6 p, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane .row .col-6 p, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane .row .col-6 p, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane .row .col-6 p {
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #CCCCCC;
+    font-size: 10px;
+  }
+  #sectionMenu .bottomDeco #line {
+    position: absolute;
+    bottom: 60%;
+    width: 100%;
+  }
+}
+@media (min-width: 601px) {
+  #sectionMenu #ourMenu .text h1 {
+    font-size: 70px;
+  }
+  #sectionMenu #ourMenu .text img {
+    width: 50%;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .row .col-3 .nav, #sectionMenu #ourMenu .text .container-xl #tabMenu .row .col-3 .nav, #sectionMenu #ourMenu .text .container-lg #tabMenu .row .col-3 .nav, #sectionMenu #ourMenu .text .container-md #tabMenu .row .col-3 .nav, #sectionMenu #ourMenu .text .container-sm #tabMenu .row .col-3 .nav {
+    width: 75%;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .row .col-3 .nav .nav-link, #sectionMenu #ourMenu .text .container-xl #tabMenu .row .col-3 .nav .nav-link, #sectionMenu #ourMenu .text .container-lg #tabMenu .row .col-3 .nav .nav-link, #sectionMenu #ourMenu .text .container-md #tabMenu .row .col-3 .nav .nav-link, #sectionMenu #ourMenu .text .container-sm #tabMenu .row .col-3 .nav .nav-link {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 {
+    width: 100%;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content {
+    width: 100%;
+    margin-left: 100px;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane {
+    width: 100%;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane .row, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane .row, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane .row, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane .row, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane .row {
+    width: 100%;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane .row .col-6, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane .row .col-6, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane .row .col-6, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane .row .col-6, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane .row .col-6 {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    width: 600px;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane .row .col-6 img, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane .row .col-6 img, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane .row .col-6 img, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane .row .col-6 img, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane .row .col-6 img {
+    border: #CCCCCC double;
+    width: 100px;
+    border-radius: 50%;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div {
+    width: 100%;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h5, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h5, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h5, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h5, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h5 {
+    font-weight: bolder;
+    font-size: 25px;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h6, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h6, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h6, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h6, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h6 {
+    font-size: 20px;
+  }
+  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane .row .col-6 p, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane .row .col-6 p, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane .row .col-6 p, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane .row .col-6 p, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane .row .col-6 p {
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #CCCCCC;
+    font-size: 20px;
+  }
+  #sectionMenu .bottomDeco #line {
+    position: absolute;
+    bottom: 40%;
+    left: 25%;
+    width: 50%;
+  }
+}
+@media (min-width: 320px) and (max-width: 600px) {
+  #sectionTeam #title img {
+    width: 75%;
+  }
+}
+@media (min-width: 601px) {
+  #sectionTeam #title img {
+    width: 35%;
+  }
+  #sectionTeam #cards .row .card .card-img .overlay {
+    position: absolute;
+    bottom: 65px;
+    left: 0;
+    right: 0;
+  }
+}
+@media (min-width: 320px) and (max-width: 600px) {
+  .container-fluidRB #blog img {
+    width: 100%;
+  }
+  .container-fluidRB #blog #cards .row .col-6 {
+    display: flex;
+    justify-content: center;
+  }
+  .container-fluidRB #blog #cards .row .col-6 .card {
+    width: 200px !important;
+    display: flex;
+  }
+  .container-fluidRB #blog #cards .row .col-6 .card .card-body {
+    width: 100px;
+    display: flex;
+  }
+  .container-fluidRB #blog #cards .row .col-6 .card .card-body h5 {
+    font-size: 15px;
+    width: 75px;
+    top: 15%;
+    right: 5%;
+  }
+  .container-fluidRB #blog #cards .row .col-6 .card .card-body p {
+    width: 100px;
+    font-size: 10px;
+  }
+  .container-fluidRB .bottomDeco #line {
+    width: 100%;
+    top: 85%;
+    left: 0%;
+  }
+}
+@media (min-width: 601px) {
+  .container-fluidRB #blog #cards .row .col-6 .card {
+    width: 75%;
+  }
+  .container-fluidRB #blog #cards .row .col-6 .card .card-body {
+    position: relative;
+  }
+  .container-fluidRB #blog #cards .row .col-6 .card .card-body h5 {
+    top: -25%;
+    left: 8%;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .container-fluidRB .bottomDeco #line {
+    bottom: 10%;
+    right: 34.5%;
+  }
+}
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -10500,202 +10736,6 @@ h3 {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6;
-  }
-}
-@media (min-width: 320px) and (max-width: 600px) {
-  body {
-    overflow-x: hidden;
-  }
-  body header #banner #bannerImg {
-    width: 100%;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-  }
-}
-@media (min-width: 601px) {
-  body {
-    overflow-x: hidden;
-  }
-  body header #banner #bannerImg {
-    height: 100vh;
-    position: absolute;
-    top: 0;
-  }
-}
-@media (min-width: 320px) and (max-width: 600px) {
-  #headerCarousel #carouselExampleSlidesOnly .carousel-inner .carousel-item .carouselText {
-    font-size: 30px;
-  }
-}
-@media (min-width: 601px) {
-  #headerCarousel #carouselExampleSlidesOnly .carousel-inner .carousel-item .carouselText {
-    font-size: 80px;
-  }
-}
-@media (min-width: 320px) and (max-width: 600px) {
-  #sectionAbout #ourStory .text {
-    top: 0%;
-  }
-  #sectionAbout #ourStory .text h1 {
-    font-size: 50px;
-  }
-  #sectionAbout #ourStory .text img {
-    width: 100%;
-  }
-}
-@media (min-width: 601px) {
-  #sectionAbout #ourStory .text {
-    top: 0%;
-  }
-  #sectionAbout #ourStory .text h1 {
-    font-size: 70px;
-  }
-  #sectionAbout #ourStory .text img {
-    width: 100%;
-  }
-}
-@media (min-width: 320px) and (max-width: 600px) {
-  #sectionMenu #ourMenu .text h1 {
-    font-size: 55px;
-  }
-  #sectionMenu #ourMenu .text img {
-    width: 100%;
-  }
-  #sectionMenu #ourMenu .text .container-fluid #tabMenu .row .col-3 .nav, #sectionMenu #ourMenu .text .container-sm #tabMenu .row .col-3 .nav, #sectionMenu #ourMenu .text .container-md #tabMenu .row .col-3 .nav, #sectionMenu #ourMenu .text .container-lg #tabMenu .row .col-3 .nav, #sectionMenu #ourMenu .text .container-xl #tabMenu .row .col-3 .nav {
-    width: 90px;
-  }
-  #sectionMenu #ourMenu .text .container-fluid #tabMenu .row .col-3 .nav .nav-link, #sectionMenu #ourMenu .text .container-sm #tabMenu .row .col-3 .nav .nav-link, #sectionMenu #ourMenu .text .container-md #tabMenu .row .col-3 .nav .nav-link, #sectionMenu #ourMenu .text .container-lg #tabMenu .row .col-3 .nav .nav-link, #sectionMenu #ourMenu .text .container-xl #tabMenu .row .col-3 .nav .nav-link {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: flex-start;
-    width: 100%;
-    font-size: 15px;
-  }
-  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 {
-    display: flex;
-    justify-content: start;
-    width: 100%;
-    position: relative;
-    right: -11%;
-  }
-  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane {
-    width: 100%;
-  }
-  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane .row, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane .row, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane .row, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane .row, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane .row {
-    width: 90%;
-  }
-  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane .row .col-6, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane .row .col-6, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane .row .col-6, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane .row .col-6, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane .row .col-6 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-end;
-  }
-  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane .row .col-6 img, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane .row .col-6 img, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane .row .col-6 img, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane .row .col-6 img, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane .row .col-6 img {
-    border: #CCCCCC double;
-    border-radius: 50%;
-  }
-  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div {
-    width: 100px;
-  }
-  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h5, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h5, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h5, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h5, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h5 {
-    font-weight: bolder;
-    font-size: 15px;
-  }
-  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h6, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h6, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h6, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h6, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h6 {
-    font-size: 10px;
-  }
-  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane .row .col-6 p, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane .row .col-6 p, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane .row .col-6 p, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane .row .col-6 p, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane .row .col-6 p {
-    padding-left: 5px;
-    padding-right: 5px;
-    background-color: #CCCCCC;
-    font-size: 10px;
-  }
-  #sectionMenu .bottomDeco #line {
-    position: absolute;
-    bottom: 60%;
-    width: 100%;
-  }
-}
-@media (min-width: 601px) {
-  #sectionMenu #ourMenu .text h1 {
-    font-size: 70px;
-  }
-  #sectionMenu #ourMenu .text img {
-    width: 50%;
-  }
-  #sectionMenu #ourMenu .text .container-fluid #tabMenu .row .col-3 .nav, #sectionMenu #ourMenu .text .container-sm #tabMenu .row .col-3 .nav, #sectionMenu #ourMenu .text .container-md #tabMenu .row .col-3 .nav, #sectionMenu #ourMenu .text .container-lg #tabMenu .row .col-3 .nav, #sectionMenu #ourMenu .text .container-xl #tabMenu .row .col-3 .nav {
-    width: 75%;
-  }
-  #sectionMenu #ourMenu .text .container-fluid #tabMenu .row .col-3 .nav .nav-link, #sectionMenu #ourMenu .text .container-sm #tabMenu .row .col-3 .nav .nav-link, #sectionMenu #ourMenu .text .container-md #tabMenu .row .col-3 .nav .nav-link, #sectionMenu #ourMenu .text .container-lg #tabMenu .row .col-3 .nav .nav-link, #sectionMenu #ourMenu .text .container-xl #tabMenu .row .col-3 .nav .nav-link {
-    font-size: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-  }
-  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 {
-    width: 100%;
-  }
-  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content {
-    width: 100%;
-    margin-left: 100px;
-  }
-  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane {
-    width: 100%;
-  }
-  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane .row, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane .row, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane .row, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane .row, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane .row {
-    width: 100%;
-  }
-  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane .row .col-6, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane .row .col-6, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane .row .col-6, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane .row .col-6, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane .row .col-6 {
-    display: flex;
-    justify-content: end;
-    align-items: flex-end;
-    width: 600px;
-  }
-  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane .row .col-6 img, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane .row .col-6 img, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane .row .col-6 img, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane .row .col-6 img, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane .row .col-6 img {
-    border: #CCCCCC double;
-    width: 100px;
-    border-radius: 50%;
-  }
-  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div {
-    width: 100%;
-  }
-  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h5, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h5, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h5, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h5, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h5 {
-    font-weight: bolder;
-    font-size: 25px;
-  }
-  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h6, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h6, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h6, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h6, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane .row .col-6 div h6 {
-    font-size: 20px;
-  }
-  #sectionMenu #ourMenu .text .container-fluid #tabMenu .col-9 .tab-content .tab-pane .row .col-6 p, #sectionMenu #ourMenu .text .container-sm #tabMenu .col-9 .tab-content .tab-pane .row .col-6 p, #sectionMenu #ourMenu .text .container-md #tabMenu .col-9 .tab-content .tab-pane .row .col-6 p, #sectionMenu #ourMenu .text .container-lg #tabMenu .col-9 .tab-content .tab-pane .row .col-6 p, #sectionMenu #ourMenu .text .container-xl #tabMenu .col-9 .tab-content .tab-pane .row .col-6 p {
-    padding-left: 5px;
-    padding-right: 5px;
-    background-color: #CCCCCC;
-    font-size: 20px;
-  }
-  #sectionMenu .bottomDeco #line {
-    position: absolute;
-    bottom: 40%;
-    left: 25%;
-    width: 50%;
-  }
-}
-@media (min-width: 320px) and (max-width: 600px) {
-  #sectionTeam #title img {
-    width: 75%;
-  }
-}
-@media (min-width: 601px) {
-  #sectionTeam #title img {
-    width: 35%;
-  }
-  #sectionTeam #cards .row .card .card-img .overlay {
-    position: absolute;
-    bottom: 65px;
-    left: 0;
-    right: 0;
   }
 }
 
