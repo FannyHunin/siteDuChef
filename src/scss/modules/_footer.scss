@@ -19,9 +19,7 @@ footer {
                 display: flex;
                 flex-direction: column;
                 align-items: flex-start;
-                padding-top: 50px;
-                padding-bottom: 50px;
-                padding-left: 50px;
+                
                 h3{
                     padding-bottom: 25px;
                 }
@@ -30,9 +28,7 @@ footer {
                     list-style: none;
                     display: flex;
                     justify-content: space-between;
-                    width:40%;
                     padding: 0 !important;
-
                     li {
                         .fab {
                             font-size: 40px;
@@ -44,10 +40,8 @@ footer {
 
             .col-4 {
                 padding-bottom: 25px;
-                div{ 
-                    width: 100%;
+                #ig{ 
                     .row{
-                       width: 75%; 
                        margin-bottom: 30px;
                     }
                 }

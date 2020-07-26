@@ -489,7 +489,6 @@ html body #border {
   color: #C42D40;
 }
 #sectionContact .card {
-  width: 20% !important;
   margin-top: 5%;
   text-align: center;
   background-color: #C42D40;
@@ -527,9 +526,6 @@ footer #part1 .row .col-4 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-left: 50px;
 }
 footer #part1 .row .col-4 h3 {
   padding-bottom: 25px;
@@ -538,7 +534,6 @@ footer #part1 .row .col-4 #icons {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  width: 40%;
   padding: 0 !important;
 }
 footer #part1 .row .col-4 #icons li .fab {
@@ -547,11 +542,7 @@ footer #part1 .row .col-4 #icons li .fab {
 footer #part1 .row .col-4 {
   padding-bottom: 25px;
 }
-footer #part1 .row .col-4 div {
-  width: 100%;
-}
-footer #part1 .row .col-4 div .row {
-  width: 75%;
+footer #part1 .row .col-4 #ig .row {
   margin-bottom: 30px;
 }
 footer #part1 .row .col-4 #tags {
@@ -826,6 +817,69 @@ footer #part2 {
   .container-fluidRB .bottomDeco #line {
     bottom: 10%;
     right: 34.5%;
+  }
+}
+@media (min-width: 320px) and (max-width: 600px) {
+  footer #part1 {
+    display: flex;
+    justify-content: center;
+  }
+  footer #part1 .row {
+    width: 95%;
+  }
+  footer #part1 .row .col-4 {
+    display: flex;
+    align-items: center;
+  }
+  footer #part1 .row .col-4 h3 {
+    font-size: 15px !important;
+  }
+  footer #part1 .row .col-4 p {
+    font-size: 12px;
+  }
+  footer #part1 .row .col-4 #icons li .fab {
+    font-size: 15px;
+  }
+  footer #part1 .row .col-4 #ig {
+    width: 125px;
+    display: flex;
+  }
+  footer #part1 .row .col-4 #ig .row {
+    width: 100px;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  footer #part1 .row .col-4 #ig .row .col-3 {
+    width: 100%;
+  }
+  footer #part1 .row .col-4 #ig .row .col-3 img {
+    margin-bottom: 5px;
+    width: 50px;
+  }
+  footer #part1 .row .col-4 #tags li {
+    font-size: 7px;
+  }
+}
+@media (min-width: 601px) {
+  footer #part1 .row .col-4 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+  }
+  footer #part1 .row .col-4 #icons {
+    width: 40%;
+  }
+  footer #part1 .row .col-4 {
+    padding-bottom: 25px;
+  }
+  footer #part1 .row .col-4 #ig {
+    width: 100%;
+  }
+  footer #part1 .row .col-4 #ig .row {
+    width: 75%;
+    margin-bottom: 30px;
   }
 }
 /*!
