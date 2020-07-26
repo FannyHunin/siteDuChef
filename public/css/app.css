@@ -259,10 +259,6 @@ html body #border {
 }
 #sectionTeam #cards .row .card .card-img .overlay {
   color: white;
-  position: absolute;
-  bottom: 65px;
-  left: 0;
-  right: 0;
   background-color: #C42D40;
   overflow: hidden;
   width: 100%;
@@ -10684,6 +10680,22 @@ h3 {
     bottom: 40%;
     left: 25%;
     width: 50%;
+  }
+}
+@media (min-width: 320px) and (max-width: 600px) {
+  #sectionTeam #title img {
+    width: 75%;
+  }
+}
+@media (min-width: 601px) {
+  #sectionTeam #title img {
+    width: 35%;
+  }
+  #sectionTeam #cards .row .card .card-img .overlay {
+    position: absolute;
+    bottom: 65px;
+    left: 0;
+    right: 0;
   }
 }
 
